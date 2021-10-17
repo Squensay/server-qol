@@ -14,6 +14,6 @@ public class ServerQoL extends Plugin {
         Events.on(EventType.PlayerLeave.class, event -> autoPause.pause("leave"));
         Events.on(EventType.PlayerJoin.class, event -> autoPause.pause("join"));
         Events.on(EventType.WorldLoadEvent.class, event -> autoPause.pause("world"));
-        Events.on(EventType.GameOverEvent.class, event -> resetSave.delSave());
+//        Events.on(EventType.GameOverEvent.class, event -> resetSave.mvSave());
     }
 }
