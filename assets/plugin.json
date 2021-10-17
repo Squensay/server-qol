@@ -1,0 +1,7 @@
+{
+  "name": "Server QoL",
+  "author": "Squensay",
+  "main": "serverQoL.ServerQoL",
+  "description": "Commands and stuff to make managing server easier",
+  "version": 1.0
+}
